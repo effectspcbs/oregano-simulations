@@ -1,0 +1,37 @@
+<Qucs Schematic 0.0.22>
+<Properties>
+  <View=-95,-310,4244,2202,0.783838,0,0>
+  <Grid=10,10,0>
+  <DataSet=the-tone-cushion.dat>
+  <DataDisplay=the-tone-cushion.sch>
+  <OpenDisplay=1>
+  <Script=the-tone-cushion.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 90 722 4099 992 3 #c0c0c0 1 00 1 0 200 20000 1 -0.0439034 0.02 0.482937 1 -1 0.1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(input)" #0000ff 0 3 0 0 0>
+	<"ngspice/ac.v(bufferout)" #ff0000 0 3 0 0 0>
+	<"ngspice/ac.v(gainout)" #ff00ff 0 3 0 0 0>
+	<"ngspice/ac.v(guitarin)" #00ff00 0 3 0 0 0>
+	<"ngspice/ac.v(eqout)" #00ffff 0 3 0 0 0>
+  </Rect>
+  <Rect 90 2068 4107 1298 3 #c0c0c0 1 00 1 0 0.0005 0.05 1 -1.26125 0.1 1.23998 1 -1 0.1 1 315 0 225 "" "" "">
+	<"ngspice/tran.v(input)" #0000ff 0 3 0 0 0>
+	<"ngspice/tran.v(bufferout)" #ff0000 0 3 0 0 0>
+	<"ngspice/tran.v(gainout)" #ff00ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
